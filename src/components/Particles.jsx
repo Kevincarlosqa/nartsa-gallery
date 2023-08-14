@@ -11,7 +11,7 @@ const ParticlesStars = () => {
   const particlesLoaded = useCallback(async () => {}, []);
   return (
     <Particles
-      className="w-full h-full absolute translate-z-0"
+      className="w-full h-full "
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
@@ -19,14 +19,14 @@ const ParticlesStars = () => {
         fps_limit: 60,
         particles: {
           number: {
-            value: 355,
+            value: 200,
             density: {
               enable: true,
               value_area: 789.1476416322727,
             },
           },
           color: {
-            value: "#ffffff",
+            value: ["#ffffff", "#ffac5a", "#ffda6b", "#f3f3f3"],
           },
           shape: {
             type: "circle",
@@ -109,7 +109,7 @@ const ParticlesStars = () => {
               distance: 83.91608391608392,
               size: 1,
               duration: 3,
-              opacity: 1,
+              opacity: 2,
               speed: 3,
             },
             repulse: {

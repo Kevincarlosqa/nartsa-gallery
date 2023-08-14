@@ -1,9 +1,19 @@
 import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <div>
+    <div className="">
       <h1>nARTsa Gallery</h1>
+
+      <ul>
+        <li className="cursor-pointer">
+          <Link href="/">HOME</Link>
+        </li>
+        <li className="cursor-pointer">
+          <Link href="/edit">EDIT</Link>
+        </li>
+      </ul>
     </div>
   );
 };

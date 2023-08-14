@@ -26,6 +26,7 @@ body {
     rgb(var(--background-start-rgb)); */
   /* background-color: white;
     color: black; */
+
   background: black;
   mix-blend-mode: exclusion;
   z-index: 0;
@@ -35,6 +36,9 @@ body {
 .mixered {
   background: linear-gradient(to bottom, #030016, #000000);
   /* mix-blend-mode: difference; */
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 #mi-video {
@@ -102,5 +106,5 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   color: white;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
