@@ -18,14 +18,17 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
+  /* background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
   /* background-color: white;
-  color: black; */
+    color: black; */
+  /* background: linear-gradient(to bottom, #030016, #000000); */
+  /* mix-blend-mode: overlay; */
+  background-color: black;
 }
 
 /*

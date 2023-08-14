@@ -32,6 +32,22 @@ export default function Home() {
 
       <div id="three-container"></div>
       {/* <Universe /> */}
+
+      <div className=" w-full h-full bg-[#030016] mix-blend-screen">
+        <div className=" w-[800px] mx-auto h-full z-[10] absolute top-0 left-0 right-0 flex flex-row    justify-center  mix-blend-normal ">
+          <video
+            className="w-full h-auto  rotate-180  "
+            preload="false"
+            playsInline
+            loop
+            muted
+            // @ts-ignore
+            autoPlay="autoplay"
+            src="/q-c3d7becf.webm"
+          ></video>
+        </div>
+      </div>
+
       {data
         ? data.map((dato) => (
             <>
