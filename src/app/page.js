@@ -1,11 +1,14 @@
 "use client";
 import ClipImages from "@/components/ClipImages";
+import Header from "@/components/Header";
+import Phrase from "@/components/Phrase";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Home() {
   const [data, setData] = useState(null);
   const date = new Date();
+
   useEffect(() => {
     fetch(
       "https://api.nasa.gov/planetary/apod?api_key=BRaIILYhdYvbrMf2lHpMY2VpQRE7gdYYB3yvf2Z1&count=3"
@@ -21,7 +24,7 @@ export default function Home() {
   console.log(date);
   return (
     <>
-      <h1>NASA GALLERY</h1>
+      <Header />
       <Image
         className="animate-pulse"
         src="/blackHole.webp"
@@ -29,14 +32,16 @@ export default function Home() {
         width={500}
         height={500}
       />
+      <Phrase />
 
       <div id="three-container"></div>
       {/* <Universe /> */}
 
-      <div className=" w-full h-full bg-[#030016] mix-blend-screen">
-        <div className=" w-[800px] mx-auto h-full z-[10] absolute top-0 left-0 right-0 flex flex-row    justify-center  mix-blend-normal ">
+      <div className=" ">
+        <div className="video-container w-[1000px] mt-10 mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center  ">
           <video
-            className="w-full h-auto  rotate-180  "
+            id="mi-video"
+            className="w-full h-full  rotate-180  mix-blend-difference"
             preload="false"
             playsInline
             loop
@@ -63,6 +68,13 @@ export default function Home() {
             </>
           ))
         : ""}
+      <Image
+        className=""
+        src="/astronaut.webp"
+        alt="astronaut"
+        width={500}
+        height={500}
+      />
     </>
   );
 }

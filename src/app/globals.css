@@ -26,9 +26,31 @@ body {
     rgb(var(--background-start-rgb)); */
   /* background-color: white;
     color: black; */
-  /* background: linear-gradient(to bottom, #030016, #000000); */
-  /* mix-blend-mode: overlay; */
-  background-color: black;
+  background: black;
+  mix-blend-mode: exclusion;
+  z-index: 0;
+  /* background-color: black; */
+}
+
+.mixered {
+  background: linear-gradient(to bottom, #030016, #000000);
+  /* mix-blend-mode: difference; */
+}
+
+#mi-video {
+  /* filter: hue-rotate(10deg) brightness(0.1); */
+  /* mix-blend-mode: difference; */
+}
+
+.video-container::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+  z-index: -20;
+  background-color: #030016;
+  /* mix-blend-mode: exclusion; */
+  /* opacity: 1; */
 }
 
 /*
@@ -73,4 +95,13 @@ body {
 .container .clip:hover .content {
   bottom: 0;
   opacity: 1;
+}
+
+.glowText {
+  font-size: 4em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+    0 0 120px #fff, 0 0 160px #fff;
 }
