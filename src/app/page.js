@@ -1,6 +1,7 @@
 "use client";
 import ClipImages from "@/components/ClipImages";
 import Header from "@/components/Header";
+import ParticlesStars from "@/components/Particles";
 import Phrase from "@/components/Phrase";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -33,6 +34,7 @@ export default function Home() {
         height={500}
       />
       <Phrase />
+      <ParticlesStars />
 
       <div id="three-container"></div>
       {/* <Universe /> */}
