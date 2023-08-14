@@ -1,0 +1,11 @@
+Model Information:
+* title:	Table Universe Abstract Animation
+* source:	https://sketchfab.com/3d-models/table-universe-abstract-animation-5fd04e3bcaa2403eb1a9e3936355535d
+* author:	deslancer (https://sketchfab.com/deslancer)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Table Universe Abstract Animation" (https://sketchfab.com/3d-models/table-universe-abstract-animation-5fd04e3bcaa2403eb1a9e3936355535d) by deslancer (https://sketchfab.com/deslancer) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

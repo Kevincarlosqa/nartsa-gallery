@@ -1,4 +1,5 @@
 "use client";
+import ClipImages from "@/components/ClipImages";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -7,7 +8,7 @@ export default function Home() {
   const date = new Date();
   useEffect(() => {
     fetch(
-      "https://api.nasa.gov/planetary/apod?api_key=BRaIILYhdYvbrMf2lHpMY2VpQRE7gdYYB3yvf2Z1&count=50"
+      "https://api.nasa.gov/planetary/apod?api_key=BRaIILYhdYvbrMf2lHpMY2VpQRE7gdYYB3yvf2Z1&count=3"
     )
       .then((res) => res.json())
       .then((resolve) => {
@@ -21,6 +22,16 @@ export default function Home() {
   return (
     <>
       <h1>NASA GALLERY</h1>
+      <Image
+        className="animate-pulse"
+        src="/blackHole.webp"
+        alt="blackhole"
+        width={500}
+        height={500}
+      />
+
+      <div id="three-container"></div>
+      {/* <Universe /> */}
       {data
         ? data.map((dato) => (
             <>
@@ -32,6 +43,7 @@ export default function Home() {
                 width={500}
                 height={500}
               />
+              <ClipImages data={data} />
             </>
           ))
         : ""}
