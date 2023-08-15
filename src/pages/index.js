@@ -28,8 +28,6 @@ export default function Home() {
   return (
     <>
       <Page>
-        <Header />
-
         <Image
           className="animate-pulse"
           src="/blackHole.webp"
@@ -38,13 +36,15 @@ export default function Home() {
           height={500}
         />
         <Phrase />
-        {/* <ParticlesStars /> */}
+        <div className="z-[-1]">
+          <ParticlesStars />
+        </div>
 
         {/* <div id="three-container"></div> */}
         {/* <Universe /> */}
 
-        <div className=" translate-z-0">
-          <div className="video-container w-[1000px] mt-10 mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center z-[-1] ">
+        <div className=" translate-z-0 ">
+          <div className="video-container w-[1000px] mt-[150px] mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center z-[-1] ">
             <video
               id="mi-video"
               className="w-full h-full  rotate-180  mix-blend-difference"

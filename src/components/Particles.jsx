@@ -26,7 +26,7 @@ const ParticlesStars = () => {
             },
           },
           color: {
-            value: ["#ffffff", "#ffac5a", "#ffda6b", "#f3f3f3"],
+            value: ["#ffffff", "#ffac5a", "#ffda6b", "#f3f3f3", "#7A41EE"],
           },
           shape: {
             type: "circle",
@@ -54,7 +54,7 @@ const ParticlesStars = () => {
             },
           },
           size: {
-            value: 2,
+            value: 1.5,
             random: true,
             anim: {
               enable: true,
