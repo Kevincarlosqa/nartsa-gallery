@@ -47,8 +47,8 @@ const ImageEditor = () => {
     contrast: 100,
     hueRotate: 0,
     rotate: 0,
-    vartical: 1,
-    horizental: 1,
+    vertical: 1,
+    horizontal: 1,
   });
   const inputHandle = (e) => {
     setState({
@@ -191,7 +191,7 @@ const ImageEditor = () => {
     <div className="image_editor">
       <div className="card">
         <div className="card_header">
-          <h2>------ Image Editor ------</h2>
+          <h2>nARTsa Images Filter</h2>
         </div>
         <div className="card_body">
           <div className="sidebar">

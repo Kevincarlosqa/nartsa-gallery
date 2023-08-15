@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="absolute z-10">
+    <div className="absolute z-10 top-0">
       <h1>nARTsa Gallery</h1>
 
       <ul>

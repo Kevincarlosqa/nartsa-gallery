@@ -5,7 +5,7 @@ export default function Page({ children }) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className="mt-[50px] mx-[100px]">{children}</main>
     </>
   );
 }

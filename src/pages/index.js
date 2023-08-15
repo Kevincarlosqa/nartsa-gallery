@@ -28,6 +28,13 @@ export default function Home() {
   return (
     <>
       <Page>
+        <div className="flex  flex-col justify-center items-center">
+          <h1 className="text-[70px] font-bold">nARTsa Gallery</h1>
+          <p className="m-8 text-xl">
+            Explora el Universo a través de los Ojos de la NASA: Imágenes que
+            Inspiran y Maravillan
+          </p>
+        </div>
         <Image
           className="animate-pulse"
           src="/blackHole.webp"
