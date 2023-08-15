@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./editor.scss";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 
