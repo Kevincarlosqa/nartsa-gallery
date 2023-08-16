@@ -43,13 +43,13 @@ export default function Home() {
             Inspiran y Maravillan
           </p>
         </div>
-        <Image
+        {/* <Image
           className="animate-pulse"
           src="/blackHole.webp"
           alt="blackhole"
           width={500}
           height={500}
-        />
+        /> */}
         <Phrase />
         <div className="">
           <ParticlesStars />

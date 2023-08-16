@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 
 const useDimension = () => {
@@ -10,10 +11,10 @@ const useDimension = () => {
   useEffect(() => {
     updateDimension();
 
-    window.addEventListener("resize", useDimension);
+    window.addEventListener("resize", updateDimension);
 
     return () => {
-      window.removeEventListener("resize", useDimension);
+      window.removeEventListener("resize", updateDimension);
     };
   }, []);
 
