@@ -30,7 +30,7 @@ const Header = () => {
         {navigationLinks.map((nav) => (
           <li
             key={nav.name}
-            className="uppercase font-semibold italic hover:scale-110 transition-all duration-300"
+            className="uppercase font-semibold italic hover:scale-110  transition-all duration-300 "
           >
             <Link href={nav.href}>{nav.name}</Link>
           </li>
