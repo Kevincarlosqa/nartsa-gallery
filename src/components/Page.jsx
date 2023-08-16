@@ -6,7 +6,7 @@ export default function Page({ children }) {
   return (
     <>
       <Header />
-      <main className="mt-[50px] min-h-[100vh] overflow-hidden">
+      <main className="mt-[85px] min-h-[100vh] overflow-hidden">
         {children}
       </main>
       {/* <Footer /> */}
