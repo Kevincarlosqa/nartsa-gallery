@@ -1,12 +1,13 @@
 import Header from "@/components/Header";
+import ParticlesStars from "@/components/Particles";
 import Page from "@/components/Page";
 import ImageEditor from "@/components/imageEditor/ImageEditor";
 
 const Edit = () => {
   return (
     <Page>
-      <Header />
       <ImageEditor />
+      <ParticlesStars />
       {/* <div className="bg-[#0B0118] h-[100vh] w-[100vh] absolute top-0 right-0 left-0 bottom-0" /> */}
       <h1>Edit Page</h1>
       {/* <div className=" translate-z-0 ">

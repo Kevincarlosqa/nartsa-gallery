@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 import Page from "@/components/Page";
+import UniverseCards from "@/components/UniverseCards";
 
 export default function Home() {
   const [data, setData] = useState(null);
@@ -43,7 +44,7 @@ export default function Home() {
           height={500}
         />
         <Phrase />
-        <div className="z-[-1]">
+        <div className="">
           <ParticlesStars />
         </div>
 
@@ -51,7 +52,7 @@ export default function Home() {
         {/* <Universe /> */}
 
         <div className=" translate-z-0 ">
-          <div className="video-container w-[1000px] mt-[150px] mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center z-[-1] ">
+          <div className="video-container w-[1000px] mt-[150px] mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center z-[-150] ">
             <video
               id="mi-video"
               className="w-full h-full  rotate-180  mix-blend-difference"
@@ -74,6 +75,7 @@ export default function Home() {
           width={500}
           height={500}
         />
+        <UniverseCards />
       </Page>
     </>
   );

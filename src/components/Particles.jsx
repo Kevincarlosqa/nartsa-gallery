@@ -11,7 +11,7 @@ const ParticlesStars = () => {
   const particlesLoaded = useCallback(async () => {}, []);
   return (
     <Particles
-      className="w-full h-full "
+      className="fixed z-[-100]  w-full h-full "
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
