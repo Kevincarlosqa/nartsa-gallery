@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import Page from "@/components/Page";
 import UniverseCards from "@/components/UniverseCards";
 import ShowFiltered from "@/components/ShowFiltered";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const [data, setData] = useState(null);
@@ -83,8 +84,8 @@ export default function Home() {
         />
         <ShowFiltered />
         <UniverseCards />
-        <div className=" absolute left-0 right-0">
-          <div className="video-container w-[1000px] mt-[150px] mx-auto absolute bottom-[-75px] left-0 right-0 flex flex-row   justify-center z-[-150] ">
+        <div className=" relative left-0 right-0 top-0 ">
+          <div className="video-container w-[1000px]  mt-[150px] mx-auto absolute bottom-[-284px] left-0 right-0 flex flex-row   justify-center z-[-150] ">
             <video
               id="mi-video"
               className="w-full h-full  rotate-180  mix-blend-difference"
@@ -98,6 +99,8 @@ export default function Home() {
             ></video>
           </div>
         </div>
+
+        <Footer />
       </Page>
     </>
   );
