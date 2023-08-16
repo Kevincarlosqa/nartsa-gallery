@@ -58,7 +58,7 @@ export default function Home() {
         {/* <Universe /> */}
 
         <div className=" translate-z-0 ">
-          <div className="video-container w-[1000px] mt-[150px] mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center z-[-150] ">
+          <div className="video-container w-[1200px] mt-[150px] mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center z-[-150] ">
             <video
               id="mi-video"
               className="w-full h-full  rotate-180  mix-blend-difference"
@@ -83,6 +83,21 @@ export default function Home() {
         />
         <ShowFiltered />
         <UniverseCards />
+        <div className=" absolute left-0 right-0">
+          <div className="video-container w-[1000px] mt-[150px] mx-auto absolute bottom-[-75px] left-0 right-0 flex flex-row   justify-center z-[-150] ">
+            <video
+              id="mi-video"
+              className="w-full h-full  rotate-180  mix-blend-difference"
+              preload="false"
+              playsInline
+              loop
+              muted
+              // @ts-ignore
+              autoPlay="autoplay"
+              src="/q-c3d7becf.webm"
+            ></video>
+          </div>
+        </div>
       </Page>
     </>
   );

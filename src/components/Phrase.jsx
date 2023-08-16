@@ -20,7 +20,10 @@ const Phrase = () => {
   return (
     <div className="flex mt-[500px] p-8 relative justify-center">
       <div className="w-[800px]">
-        <h1 className={`${caveat.className} glowText `}>
+        <h1
+          className={`${caveat.className} glowText `}
+          style={{ fontFamily: "graziela" }}
+        >
           &ldquo; {phrase?.frase}&rdquo;
         </h1>
       </div>

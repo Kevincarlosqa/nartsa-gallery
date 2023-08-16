@@ -19,8 +19,11 @@ const App = ({ Component, pageProps }) => {
           exit={{ scaleY: 1 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h1 className="backg text-white flex justify-center items-center font-semibold text-2xl">
-            jello
+          <h1
+            style={{ fontFamily: "graziela" }}
+            className="backg text-white flex justify-center items-center text-[90px] font-bold"
+          >
+            Nartsa Gallery
           </h1>
         </motion.div>
         <motion.div
