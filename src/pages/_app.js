@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "../styles/editor.scss";
 import "../styles/cards.css";
+import "../styles/fonts/fonts.css";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 

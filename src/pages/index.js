@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 
 import Page from "@/components/Page";
 import UniverseCards from "@/components/UniverseCards";
+import ShowFiltered from "@/components/ShowFiltered";
 
 export default function Home() {
   const [data, setData] = useState(null);
@@ -30,7 +31,12 @@ export default function Home() {
     <>
       <Page>
         <div className="flex  flex-col justify-center items-center">
-          <h1 className="text-[70px] font-bold">nARTsa Gallery</h1>
+          <h1
+            className="text-[90px] font-bold"
+            style={{ fontFamily: "graziela" }}
+          >
+            Nartsa Gallery
+          </h1>
           <p className="m-8 text-xl">
             Explora el Universo a través de los Ojos de la NASA: Imágenes que
             Inspiran y Maravillan
@@ -75,6 +81,7 @@ export default function Home() {
           width={500}
           height={500}
         />
+        <ShowFiltered />
         <UniverseCards />
       </Page>
     </>

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "graziela";
+  src: url("./Blacksword.otf") format("opentype");
+  /* Puedes agregar más formatos aquí, como woff2, woff, etc. */
+  font-weight: normal;
+  font-style: normal;
+}

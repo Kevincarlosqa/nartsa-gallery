@@ -17,6 +17,7 @@
 }
 
 body {
+  scroll-behavior: smooth;
   color: rgb(var(--foreground-rgb));
   /* background: linear-gradient(
     to bottom,
@@ -29,7 +30,7 @@ body {
 
   background: black;
   mix-blend-mode: exclusion;
-  z-index: 0;
+  width: 100%;
   /* background-color: black; */
 }
 
