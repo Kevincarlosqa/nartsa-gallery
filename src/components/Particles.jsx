@@ -19,7 +19,7 @@ const ParticlesStars = () => {
         fps_limit: 60,
         particles: {
           number: {
-            value: 200,
+            value: 300,
             density: {
               enable: true,
               value_area: 789.1476416322727,

@@ -189,7 +189,7 @@ const ImageEditor = () => {
   };
   return (
     <div className="image_editor z-10">
-      <div className="card">
+      <div className="card bg-gray-500/30">
         <div className="card_header">
           <h2>nARTsa Images Filter</h2>
         </div>

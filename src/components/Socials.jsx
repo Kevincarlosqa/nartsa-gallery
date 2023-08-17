@@ -35,7 +35,7 @@ const Socials = () => {
           key={index}
           href={social.link}
           target={`${social.link === "/contact" ? "" : "_blank"}`}
-          className="hover:text-accent hover:scale-110 transition-all duration-300"
+          className="hover:text-gray-500 hover:scale-125 transition-all duration-300"
         >
           {social.icon}
         </Link>

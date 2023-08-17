@@ -23,7 +23,7 @@ const navigationLinks = [
 const Header = () => {
   return (
     <div className="navbar absolute z-10 top-0 flex px-[100px] w-full justify-between items-center h-[70px]">
-      <Link href="/" style={{ fontFamily: "graziela" }} className="text-xl">
+      <Link href="/" style={{ fontFamily: "graziela" }} className="text-2xl">
         Nartsa Gallery
       </Link>
       <ul className="flex gap-8">

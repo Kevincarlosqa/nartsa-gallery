@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <>
       <Page>
-        <div className="flex  flex-col justify-center items-center">
+        <div className="flex mt-5  flex-col justify-center items-center">
           <h1
             className="text-[90px] font-bold"
             style={{ fontFamily: "graziela" }}
@@ -59,7 +59,7 @@ export default function Home() {
         {/* <Universe /> */}
 
         <div className=" translate-z-0 ">
-          <div className="video-container w-[1200px] mt-[150px] mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center z-[-150] ">
+          <div className="video-container w-[1200px] mt-[200px] mx-auto absolute top-0 left-0 right-0 flex flex-row   justify-center z-[-150] ">
             <video
               id="mi-video"
               className="w-full h-full  rotate-180  mix-blend-difference"
